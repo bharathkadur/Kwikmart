@@ -1,0 +1,80 @@
+/* src/CSS/styles.css */
+
+.login-page {
+    margin: 0;
+    background-image: url('../assets/mainpage.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-attachment: fixed; /* Background fixed */
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start; /* Changed from 'space-around' to 'flex-start' */
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.heading h1 {
+    font-family: 'Arial Black', sans-serif;
+    color: #2c3e50;
+    margin: 0;
+    margin-left: 60px;
+    font-size: 48px;
+}
+
+.heading h2 {
+    font-family: 'Arial', sans-serif;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.form-container {
+    width: 40%;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 30px; 
+}
+
+
+.form-container input,
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.small-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.small-button:hover {
+    background-color: #0056b3;
+}
+
+.logo-container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-image: url('../assets/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
